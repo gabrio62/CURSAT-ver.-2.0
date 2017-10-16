@@ -1,5 +1,5 @@
 # CURSAT-ver.-2.0
-A program to calculate rarefaction curves by boostrap
+A program to calculate rarefaction curves by bootstrap
 
 This software is useful to address questions such as:
 "how many sampling events are necessary to maximize the chance to sample all species that occur at a certain location?" or "how many sampling events are necessary to collect a representative sample of the species that occur at a certain location?"
