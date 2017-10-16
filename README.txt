@@ -2,9 +2,12 @@
 A program to calculate saturation curves by boostrap
 
 This software is useful to address questions such as:
-"how many sampling events are necessary to maximize the chance to sample all species that occur at a certain location?" or "how many sampling events are necessary to collect a representative sample of the species that occur at a certain location?"
+"how many sampling events are necessary to maximize the chance to sample all species that occur at a certain location?" or "how many
+sampling events are necessary to collect a representative sample of the species that occur at a certain location?"
 
-Let's consider the following case: we know that 12 species occur at a certain location. We sampled that location 10 times and each time we found a certain number of species, according to the scheme here below. In the 12x10 matrix, species are a-k and sampling events are 1-10.
+Let's consider the following case: we know that 12 species occur at a certain location. We sampled that location 10 times and each time
+we found a certain number of species, according to the scheme here below. In the 12x10 matrix, species are a-k and sampling events are
+1-10.
 Presence and absence of each species in each sampling event is represented by 1 and 0, respectively.
 
 
@@ -136,7 +139,8 @@ Number of repetitions:       100
  9  11 
  10  12 ....
  
- You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here below, done using Statistica ver. 8 (StatSoft, Inc).
+ You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here below, done using 
+ Statistica ver. 8 (StatSoft, Inc).
 
 
 
