@@ -139,10 +139,13 @@ Number of repetitions:       100
  9  11 
  10  12 ....
  
- You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here below, done using 
+ You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here attached, done using 
  Statistica ver. 8 (StatSoft, Inc).
+ 
+ The code is in the file CURSAT.BAS, also attached. It is written in basic qb64, freely downloadable at: http://www.qb64.net/.
+ Qb64 will compile the program in .EXE, that can run in Windows. For your convenience, I also attached a compiled version of the 
+ program (CURSAT.EXE)
 
-![Box-plot graph](CURSAT-ver.-2.0 / test 10 sampling events x 12 species.png “Box-plot graph 10 sampling events/12 species”)
 
 
 
