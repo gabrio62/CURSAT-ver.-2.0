@@ -142,7 +142,7 @@ Number of repetitions:       100
  You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here attached, done using 
  Statistica ver. 8 (StatSoft, Inc).
  
- The code is in the file CURSAT.BAS, also attached. It is written in basic qb64, freely downloadable at: http://www.qb64.net/.  Qb64 will compile the program in .EXE, that can run in Windows. For your convenience, I also attached a compiled version of the  program (CURSAT.EXE)
+ The code is in the file CURSAT 2.0.BAS, also attached. It is written in basic qb64, freely downloadable at: http://www.qb64.net/.  Qb64 will compile the program in .EXE, that can run in Windows. For your convenience, I also attached a compiled version of the  program (CURSAT 2.0.EXE)
 
 
 
