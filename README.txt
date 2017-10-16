@@ -142,7 +142,7 @@ Number of repetitions:       100
  You can import it in Excel  or other statistical package and create nice box-plot graphs like the one here below, done using 
  Statistica ver. 8 (StatSoft, Inc).
 
-![Box-plot graph](CURSAT-ver.-2.0/test 10 sampling events x 12 species.png “Box-plot graph 10 sampling events/12 species”)
+![Box-plot graph](CURSAT-ver.-2.0 / test 10 sampling events x 12 species.png “Box-plot graph 10 sampling events/12 species”)
 
 
 
