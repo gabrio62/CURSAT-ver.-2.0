@@ -49,51 +49,51 @@ You will indicate how many bootstrap pseudoreplicates you wish to create.
 Last things you need to input are the names of the input and output files.
 By default, bootstrap replicates are saved in "boot.out" and they will look like this:
 
-"CURSAT ver 1.0              Date:         10-14-2017      Hour:  11:50:57
+CURSAT ver 2.0              Date:         02-21-2019      Hour:       08:37:59
 Input file:   test 10 sampling events x 12 species.txt
 Output file:  test 10 sampling events x 12 species.out
 Number of columns:           10 
 Number of rows:              12 
 Number of repetitions:       100 
 
- 0  0  1  1  0  1  0  1  0  0 
+ 0  0  1  1  0  0  0  1  0  0 
  1  0  0  1  0  0  1  0  0  0 
- 1  1  1  0  1  1  1  1  0  0 
- 1  0  0  0  0  0  1  1  1  1 
- 0  0  1  1  0  1  0  0  0  0 
- 0  0  0  1  0  0  0  0  1  1 
- 0  0  1  0  0  1  0  1  1  1 
- 1  0  1  1  0  1  1  0  0  0 
- 0  1  0  1  1  0  0  0  1  1 
- 1  0  1  0  0  1  1  1  0  0 
- 0  1  1  1  1  1  0  0  0  0 
- 1  0  0  1  0  0  1  0  0  0 
-
- 1  0  0  0  0  0  1  0  0  1 
- 0  0  0  0  1  0  1  0  1  0 
- 0  1  0  1  0  0  0  0  0  0 
+ 1  1  1  0  1  0  1  1  1  1 
+ 1  0  0  0  0  1  1  1  0  0 
+ 0  0  1  1  0  0  0  0  0  0 
+ 0  0  0  1  0  1  0  0  0  0 
  0  0  1  0  0  1  0  1  0  0 
- 1  0  0  0  0  0  0  0  0  1 
- 0  1  1  1  1  1  1  1  1  0 
- 1  0  1  0  0  1  0  1  0  1 
- 0  1  0  1  1  0  1  0  1  0 
- 0  1  1  1  0  1  1  1  0  0 
- 1  0  0  0  0  0  0  0  0  1 
- 1  1  0  1  0  0  0  0  0  1 
- 1  0  0  0  1  0  1  0  1  1 
+ 1  0  1  1  0  0  1  0  0  0 
+ 0  1  0  1  1  1  0  0  1  1 
+ 1  0  1  0  0  0  1  1  0  0 
+ 0  1  1  1  1  0  0  0  1  1 
+ 1  0  0  1  0  0  1  0  0  0 
 
- 1  0  0  1  0  0  1  0  0  1 
- 1  0  0  0  1  1  1  0  0  1 
- 0  0  0  1  1  1  0  0  1  0 
- 0  1  1  0  1  1  0  1  0  0 
- 1  0  0  1  0  0  0  0  0  0 
- 1  1  1  0  0  0  1  1  1  1 
- 0  1  1  1  0  0  0  1  0  0 
+ 1  1  0  0  1  0  0  0  0  1 
+ 0  1  0  0  0  0  1  0  1  0 
+ 0  0  1  1  0  0  0  0  0  0 
+ 0  0  0  0  0  1  0  1  0  0 
+ 1  0  0  0  1  0  0  0  0  1 
+ 0  1  0  1  0  1  1  1  1  0 
+ 1  0  0  0  1  1  0  1  0  1 
+ 0  1  0  1  0  0  1  0  1  0 
+ 0  1  1  1  0  1  0  1  0  0 
+ 1  0  0  0  1  0  0  0  0  1 
+ 1  0  1  1  1  0  0  0  0  1 
+ 1  1  0  0  1  0  1  0  1  1 
+
+ 1  0  0  1  1  0  0  0  1  0 
+ 1  0  0  0  1  1  1  0  1  1 
+ 0  1  0  1  0  1  0  1  0  0 
+ 0  0  1  0  0  1  0  0  0  0 
+ 1  0  0  1  1  0  0  0  0  0 
+ 1  0  1  0  1  0  1  0  1  1 
+ 0  0  1  1  0  0  0  0  0  0 
  1  0  0  1  1  1  1  0  1  1 
- 1  1  1  0  0  0  1  1  1  1 
- 0  0  0  1  1  1  0  0  0  0 
- 1  0  0  1  0  0  0  0  1  0 
- 1  0  0  0  1  1  1  0  0  1 ......"
+ 1  1  1  0  1  0  0  1  1  0 
+ 0  0  0  1  0  1  0  0  0  0 
+ 1  1  0  1  1  0  0  1  0  0 
+ 1  0  0  0  1  1  1  0  1  1  ......"
  
  The output file will look like this:
  
@@ -111,34 +111,26 @@ Number of repetitions:       100
  2  10 
  3  11 
  4  11 
- 5  12 
+ 5  11 
  6  12 
  7  12 
  8  12 
  9  12 
  10  12 
  1  8 
- 2  10 
- 3  10 
+ 2  9 
+ 3  11 
  4  12 
  5  12 
  6  12 
  7  12 
  8  12 
  9  12 
- 10  12 
- 1  5 
- 2  10 
- 3  10 
- 4  10 
- 5  10 
- 6  10 
- 7  11 
- 8  11 
- 9  11 
  10  12 ....
  
-You can import it in Excel or other statistical package and create nice box-plot graphs like the one here attached, done using Statistica ver. 8(StatSoft, Inc).
+You can import it in Excel or other statistical package and create nice box-plot graphs like the one in this repository (test 10 sampling events x 12 species.png), done using Statistica ver. 8(StatSoft, Inc).
+
+The input file (test 10 sampling events x 12 species.txt) and the output file (test 10 sampling events x 12 species.out) used to write this README.txt are included in the repository, along with the bootstrap file (boot.out)
 
 
 
