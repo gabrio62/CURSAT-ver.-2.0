@@ -1,5 +1,5 @@
-1 CLEAR 30000
-5 CLS: PRINT "CURSAT  ver 2.0  -  A program to calculate saturation curves": PRINT
+tio1 CLEAR 30000
+5 CLS: PRINT "CURSAT  ver 2.0  -  A program to calculate rarefaction curves": PRINT
 6 PRINT "Gabriele Gentile, Department of Biology, University TOR VERGATA"
 7 PRINT "Viale della Ricerca Scientifica, 1 - 00133, Rome, Italy"
 8 PRINT "E-mail: gabriele.gentile@uniroma2.it"
@@ -13,7 +13,7 @@
 33 INPUT "Output filename"; file$
 34 OPEN file$ FOR OUTPUT AS #1
 35 OPEN boot$ FOR OUTPUT AS #2
-36 PRINT #2, "CURSAT ver 1.0  ", "Date: ", DATE$, "  Hour: ", TIME$
+36 PRINT #2, "CURSAT ver 2.0  ", "Date: ", DATE$, "  Hour: ", TIME$
 37 PRINT #2, "Input file:  ", inpu$
 38 PRINT #2, "Output file: ", file$
 39 PRINT #2, "Number of columns: ", NC
